@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo o fundo da página */
+body {
+    font-family: 'Great Vibes', cursive;
+    background-image: url('fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container para centralizar o conteúdo */
+.container {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
+}
+
+/* Estilizando o título */
+h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+/* Estilizando o parágrafo */
+p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+/* Imagem do catinho */
+.image-container {
+    margin-top: 20px;
+}
+
+.catinho-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+}
